@@ -19,11 +19,11 @@
       <div class="wrapper">
         <ul class="left">
           <li>JavaScript (ES6) & TypeScript, CSS, Tailwind</li>
-          <li>Vue 2 & 3, Nuxt 2 & 3, Ember.js, Svelte</li>
+          <li>Vue 2 & 3, Nuxt, Ember.js, React, Svelte</li>
           <li>Docker & Docker Compose, Kubernetes</li>
           <li>Google Cloud, Heroku, AWS, Vercel, Azure</li>
           <li>PostgreSQL, Redis, MySQL, GraphQL, Mongo</li>
-          <li>AGILE & SCRUM methodologies & techniques</li>
+          <li>AGILE & SCRUM methodologies</li>
         </ul>
 
         <ul class="right">
@@ -42,14 +42,40 @@
 
       <div class="company">
         <div class="position">
+          <h2>Trengo</h2>
+          <h3>Frontend Engineer <span>Dec 2022 - Present</span></h3>
+        </div>
+        <div class="company-details">
+          <ul>
+            <li>
+              I was part of the team with arguably the most critical customer-facing role of the entire application, where myself and 3 other devs collaborated closely in order to ship huge refactors of the legacy codebase, in order to modernize it and ensure that it's much easier going forward to modify and add new features to it.
+            </li>
+
+            <li>
+              Additionally, my team and I collaborated on a large, cross-team effort to create a large new project based around 3rd party application integrations, starting from scratch and working our way up with wholly new components and refactors of older sections where necessary.
+            </li>
+
+            <li>
+              Participated in a large cross-team effort to elevate the quality of our homebrewed UIKit, both in terms of the usefulness and reusability of the components within it, as well as the testability and longevity of the components.
+            </li>
+
+            <li>
+              I was a very vocal advocate for improving upon the DX of the whole codebase, collaborating very closely with the senior devs to clean up and organize the older, more legacy sections of the project.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="company">
+        <div class="position">
           <h2>FeedbackFruits</h2>
-          <h3>Fullstack Engineer <span>Dec 2021 - Present</span></h3>
+          <h3>Fullstack Engineer <span>Dec 2021 - Dec 2022</span></h3>
         </div>
 
         <div class="company-details">
           <ul>
             <li>
-              My team and I were responsible for the construction of a brand new, large featureset from scratch for a new university, that would eventually be ported over for all universities on the platform. It involved the creation of many new complex components and in some situations refactors of existing components on the frontend, while the backend also required new functionality with a lot of room for error in terms of complex - and slow - PSQL queries involving deeply nested JOINs and UNIONs.
+              My team and I were responsible for the construction of a brand new, large featureset from scratch for one of our client universities, that would eventually be ported over for all universities on the platform. It involved the creation of many new complex components and in some situations refactors of existing components on the frontend, while the backend also required new functionality with a lot of room for error due to a slew of complex SQL queries.
             </li>
 
             <li>
@@ -57,7 +83,7 @@
             </li>
 
             <li>
-              I was deeply involved in the code review process for many pull requests made for both the backend and the frontend of the platform. I ensured that all code being delivered was looked at objectively and adhered to a high standard, especially making sure that accessibility concerns were accounted for.
+              I was deeply involved in the code review process for many pull requests made for both the backend and the frontend of the platform. I ensured that all code being delivered was adhering to a high standard, especially making sure that accessibility concerns were accounted for due to the nature of the userbase (universities and their students).
             </li>
 
             <li>
@@ -69,7 +95,7 @@
 
       <div class="company">
         <div class="position">
-          <h2>Tablevibe (1.5 years)</h2>
+          <h2>Tablevibe</h2>
           <h3>Fullstack Engineer <span>Aug 2020 - Dec 2021</span></h3>
         </div>
       </div>
@@ -77,43 +103,15 @@
       <div class="company-details">
         <ul>
           <li>
-            Facilitated a large refactoring of the Rails backend that smoothly facilitated delivery services rather than only in-restaurant dining statistics, a crucial feature during the peak of the COVID pandemic where many people couldn't go out to our client's restaurants to eat.
+            I was part of a large effort where we modernized and cleaned up some of the messier parts of the Vue codebase that relied on brittle 3rd parties, ensuring the young project would remain scalable and easy to work on for any potential newcomers.
           </li>
 
           <li>
-            Integrated Sidekiq and Redis into the Rails backend to facilitate background job processing. This massively improved the platform's performance in heavy tasks such as large CSV and PDF exports which clients commonly utilized, as it deferred all of it back to Redis for efficient handling.
-          </li>
-
-          <li>
-            During the Sidekiq integration, I was also responsible for integrating Sidekiq and Redis into our Google Cloud Platform, where I ended up creating a small PR for the official Google docs outlining a more convenient way of doing that setup compared to what was recommended before.
-          </li>
-
-          <li>
-            I worked on a large Vue 2 refactor which involved getting rid of many bloated Vuetify components in favor of home-grown ones that were much leaner and more relevant for the product.
-          </li>
-
-          <li>
-            Integrated CI Workflows into the repositories and led an effort to make sure the whole codebase was better documented and had better tests and test coverage.
-          </li>
-
-          <li>
-            Started the initial work on providing users access to the API, documented via OpenAPIv3 specs.
+            Facilitated a large refactor of the Rails backend that smoothly aided delivery services rather than only in-restaurant dining experiences, a crucial feature during the peak of the COVID pandemic where many people couldn't go out to eat, which was a large factor in ensuring the continued and successful growth of the product.
           </li>
         </ul>
       </div>
     </div>
-
-    <div class="languages">
-      <h2>Languages</h2>
-
-      <div class="lang-list">
-        <p>English - Fluent/Native</p>
-        <p>Serbian - Fluent/Native</p>
-        <p>Indonesian - Conversational</p>
-        <p>Dutch - Beginner</p>
-      </div>
-    </div>
-  </div>
 </main>
 
 <style>
@@ -131,13 +129,13 @@
     height: 297mm;
     width: 210mm;
     background: white;
-    padding: 10px;
+    padding: 9px 10px;
     font-family: Aeonik;
   }
   h1, h2, h3, h4, h5, ul, li, p, code, pre { margin: 0; padding: 0}
 
   .name {
-    font-size: 2.2rem;
+    font-size: 2.0rem;
   }
   .link {
     color: dimgray;
@@ -195,7 +193,7 @@
     margin: 1px 0;
   }
 
-  .experience > h2 { margin: 5px 0 8px 0; font-size: 1.7rem }
+  .experience > h2 { margin: 4px 0 7px 0; font-size: 1.5rem }
   h3 { font-size: 1.4rem; font-weight: normal }
   .position {
     display: inline-flex;
@@ -212,9 +210,4 @@
   .company-details > ul { margin-left: 10px }
   .company-details > ul > li { margin: 6px 0 }
   .company-details > ul > li:nth-child(1) { margin: 2px 0 6px 0 }
-
-  .languages { display: flex; flex-flow: column wrap; justify-content: center; align-items: center }
-  .lang-list {
-    text-align: center;
-  }
 </style>
