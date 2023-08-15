@@ -48,19 +48,23 @@
         <div class="company-details">
           <ul>
             <li>
-              I was part of the team with arguably the most critical customer-facing role of the entire application, where myself and 3 other devs collaborated closely in order to ship huge refactors of the legacy codebase, in order to modernize it and ensure that it's much easier going forward to modify and add new features to it.
+              Part of the team with the most critical user-facing role of the entire application, the Inbox, where my team and I shipped huge refactors of the legacy codebase, modernizing it and ensuring that it's much easier to modify and add new features to in the future.
             </li>
 
             <li>
-              Additionally, my team and I collaborated on a large, cross-team effort to create a large new project based around 3rd party application integrations, starting from scratch and working our way up with wholly new components and refactors of older sections where necessary.
+              Refactored many data-fetching components to utilize a proper store system, which involved large scale reworks of many fragile interconnected parts of the codebase. This ultimately resulted in a much better dev experience due to the increased level of organization and the newly introduced unit tests, as well as major speed & efficiency gains in the application itself for our users.
             </li>
 
             <li>
-              Participated in a large cross-team effort to elevate the quality of our homebrewed UIKit, both in terms of the usefulness and reusability of the components within it, as well as the testability and longevity of the components.
+              Additionally, I was heavily involved in a large cross-team effort to create an entirely new suite of tools related to 3rd party integrations such as Hubspot, Salesforce and other related 3rd parties. Starting from scratch, we worked our way up with wholly new components and refactors to older sections of the codebase where necessary.
             </li>
 
             <li>
-              I was a very vocal advocate for improving upon the DX of the whole codebase, collaborating very closely with the senior devs to clean up and organize the older, more legacy sections of the project.
+              Participated in a large cross-team effort to elevate the quality of our homebrewed UIKit, both in terms of the usefulness and reusability of the components within it, as well as the testability and longevity of the components. Involved the creation of many new components as well as redesigns of older ones.
+            </li>
+
+            <li>
+              A very vocal advocate for improving upon the DX of the whole codebase, from simple things like automated linting on-commit to ensuring that our test coverage was sufficient and scalable for future work.
             </li>
           </ul>
         </div>
@@ -75,19 +79,15 @@
         <div class="company-details">
           <ul>
             <li>
-              My team and I were responsible for the construction of a brand new, large featureset from scratch for one of our client universities, that would eventually be ported over for all universities on the platform. It involved the creation of many new complex components and in some situations refactors of existing components on the frontend, while the backend also required new functionality with a lot of room for error due to a slew of complex SQL queries.
+              My team and I were responsible for the construction of a brand new, large featureset involving lots of data gathering and analytical capabilities, that would eventually be ported over for all universities on the platform. It involved the creation of many new complex components and in some situations refactors of existing components on the frontend, while the backend also required new functionality with a lot of room for error due to a slew of complex SQL queries.
             </li>
 
             <li>
-              Responsible for the integration and testing of all new features into various LMS platforms like Canvas, BlackBoard, Microsoft Teams and others. This involves writing extensive Unit, acceptance and integration tests on both the frontend and backend as well as manual testing of the various APIs involved in the LMS'.
+              Responsible for the integration and testing of all new features into various LMS platforms like Canvas, BlackBoard, Microsoft Teams and others. This involved writing extensive Unit, acceptance and integration tests on both the frontend and backend as well as manual testing of the various APIs involved in the LMS'.
             </li>
 
             <li>
               I was deeply involved in the code review process for many pull requests made for both the backend and the frontend of the platform. I ensured that all code being delivered was adhering to a high standard, especially making sure that accessibility concerns were accounted for due to the nature of the userbase (universities and their students).
-            </li>
-
-            <li>
-              Outside of major projects, I was also involved in delivering small, but crucial quality of life improvements for the platform, such as searchbars, table sorting and various other similar things. I also created a number of smaller components and features that ended up being used by pretty much anyone using the platform - both internally as well as externally.
             </li>
           </ul>
         </div>
@@ -103,11 +103,11 @@
       <div class="company-details">
         <ul>
           <li>
-            I was part of a large effort where we modernized and cleaned up some of the messier parts of the Vue codebase that relied on brittle 3rd parties, ensuring the young project would remain scalable and easy to work on for any potential newcomers.
+            Part of a large effort where we modernized and cleaned up some of the messier parts of the Vue codebase that relied on brittle 3rd parties, ensuring the young project would remain scalable and easy to work on for any potential newcomers.
           </li>
 
           <li>
-            Facilitated a large refactor of the Rails backend that smoothly aided delivery services rather than only in-restaurant dining experiences, a crucial feature during the peak of the COVID pandemic where many people couldn't go out to eat, which was a large factor in ensuring the continued and successful growth of the product.
+            Facilitated a large refactor of the Rails backend to cater to delivery services, a crucial feature during the peak of the COVID pandemic where many people couldn't go out to eat, which was a large factor in ensuring the continued and successful growth of the product.
           </li>
         </ul>
       </div>
