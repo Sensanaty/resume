@@ -1,7 +1,7 @@
 <main>
   <div class="wrapper">
     <div class="header">
-      <h1 class="name">Luka Salevic<span class="link">lu-ka.me</span></h1>
+      <h1 class="name">Luka Salević<span class="link">lu-ka.me</span></h1>
       <h2 class="description">Fullstack Web & Software Engineer</h2>
     </div>
 
