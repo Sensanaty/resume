@@ -56,7 +56,7 @@
             </li>
 
             <li>
-              Additionally, I was heavily involved in a large cross-team effort to create an entirely new suite of tools related to 3rd party integrations such as Hubspot, Salesforce and other related 3rd parties. Starting from scratch, we worked our way up with wholly new components and refactors to older sections of the codebase where necessary.
+              Additionally, I was heavily involved in a large cross-team effort to create an entirely new suite of tools related to 3rd party integrations such as Hubspot, Salesforce and other related 3rd parties. Starting from scratch, we worked our way up with wholly new components and refactors to older sections of the codebase.
             </li>
 
             <li>
@@ -64,7 +64,7 @@
             </li>
 
             <li>
-              A very vocal advocate for improving upon the DX of the whole codebase, from simple things like automated linting on-commit to ensuring that our test coverage was sufficient and scalable for future work.
+              Headed a long-term effort to upgrade our Vue version from 2 to 3, while getting rid of as many dependencies as possible in the meantime. I was also a very vocal advocate for improving upon the general DX of the whole codebase, from simple things like automated linting on-commit to ensuring that our test coverage was sufficient and scalable for future work.
             </li>
           </ul>
         </div>
@@ -103,7 +103,7 @@
       <div class="company-details">
         <ul>
           <li>
-            Part of a large effort where we modernized and cleaned up some of the messier parts of the Vue codebase that relied on brittle 3rd parties, ensuring the young project would remain scalable and easy to work on for any potential newcomers.
+            Part of a large effort where we modernized and cleaned up some of the messier parts of the Vue codebase that relied on brittle 3rd parties, ensuring the young project would remain scalable and easy to work on.
           </li>
 
           <li>
