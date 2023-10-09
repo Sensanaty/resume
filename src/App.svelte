@@ -43,7 +43,7 @@
       <div class="company">
         <div class="position">
           <h2>Trengo</h2>
-          <h3>Frontend Engineer <span>Dec 2022 - Present</span></h3>
+          <h3>Senior Frontend Engineer <span>Dec 2022 - Present</span></h3>
         </div>
         <div class="company-details">
           <ul>
