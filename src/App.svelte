@@ -6,9 +6,9 @@
     </div>
 
     <div class="details">
-      <code>salevic@lu-ka.me</code>
+      <a href="mailto:salevic@lu-ka.me"><code>salevic@lu-ka.me</code></a>
       <span class="spacer"></span>
-      <code>github.com/Sensanaty</code>
+      <a href="https://github.com/Sensanaty"><code>github.com/Sensanaty</code></a>
       <span class="spacer"></span>
       <code>+31 612 632 764</code>
     </div>
@@ -147,6 +147,11 @@
   .link::before {
     content: "// ";
     font-family: "Helvetica Now Display"
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
   }
 
   .details {
