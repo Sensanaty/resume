@@ -18,20 +18,20 @@
 
       <div class="wrapper">
         <ul class="left">
-          <li>JavaScript (ES6) & TypeScript, CSS, Tailwind</li>
-          <li>Vue 2 & 3, Nuxt, Ember.js, React, Svelte</li>
+          <li>TypeScript, HTML, CSS, Tailwind</li>
+          <li>Vue and Nuxt 2 & 3, Svelte, React, Lit, Ember</li>
           <li>Docker & Docker Compose, Kubernetes</li>
-          <li>Google Cloud, Heroku, AWS, Vercel, Azure</li>
+          <li>Cloudflare, Google Cloud, AWS, Vercel, Azure</li>
           <li>PostgreSQL, Redis, MySQL, GraphQL, Mongo</li>
-          <li>AGILE & SCRUM methodologies</li>
+          <li>LangSmith, self-hosted LLMs (Llama 3)</li>
         </ul>
 
         <ul class="right">
-          <li>Ruby & Ruby on Rails, Python & Django</li>
-          <li>Git, Mercurial, SVN</li>
-          <li>TTD & Continuous Delivery and Integration</li>
-          <li>Linux (Ubuntu, Debian, Fedora, Alpine) & MacOS</li>
-          <li>Illustrator, Figma, Sketch, Photoshop</li>
+          <li>Ruby & Rails, Golang, Python, Learning Rust</li>
+          <li>Linux (UNIX), Git, Mercurial, SVN</li>
+          <li>Vitest, testing-library, Jest, Cypress, Playwright</li>
+          <li>Pinia, VueX, Jotai, Zustand, TanStack Query</li>
+          <li>Figma, Miro, Framer, Lottie</li>
           <li>SEO, Web Design & UX, Accessibility & i18n</li>
         </ul>
       </div>
@@ -48,23 +48,27 @@
         <div class="company-details">
           <ul>
             <li>
-              Part of the team with the most critical user-facing role of the entire application, the Inbox, where my team and I shipped huge refactors of the legacy codebase, modernizing it and ensuring that it's much easier to modify and add new features to in the future.
+              As part of the automation team, led the frontend development of a greenfield AI automation feature. The AI directly interacted with deeper, critical systems of the project, being allowed to act autonomously, which meant a lot of care was taken to ensure high quality workflows.
             </li>
 
             <li>
-              Refactored many data-fetching components to utilize a proper store system, which involved large scale reworks of many fragile interconnected parts of the codebase. This ultimately resulted in a much better dev experience due to the increased level of organization and the newly introduced unit tests, as well as major speed & efficiency gains in the application itself for our users.
+              I also often helped the backend engineers on the automation team with the Node (Nest.js) codebase of the greenfield AI project, as the bulk of the work there involved backend work. In collaboration with our Infra team, we put out a fully-functional MVP of the project in less than a month.
             </li>
 
             <li>
-              Additionally, I was heavily involved in a large cross-team effort to create an entirely new suite of tools related to 3rd party integrations such as Hubspot, Salesforce and other related 3rd parties. Starting from scratch, we worked our way up with wholly new components and refactors to older sections of the codebase.
+              As part of the Inbox team, we were responsible for the most critical part of the entire application, the Inbox. My team and I modernized huge swathes of the legacy, untested  Inbox codebase, ensuring greater testability, extensibility and getting rid of many long-standing bugs in the platform which were slowly increasing our churn rate.
             </li>
 
             <li>
-              Participated in a large cross-team effort to elevate the quality of our homebrewed UIKit, both in terms of the usefulness and reusability of the components within it, as well as the testability and longevity of the components. Involved the creation of many new components as well as redesigns of older ones.
+              During my time in Inbox, we also built a massive new feature that involved over 20 different 3rd party CRM and Ecommerce platform integrations via their APIs to great success, seeing adoption with almost every Trengo customer.
             </li>
 
             <li>
-              Headed a long-term effort to upgrade our Vue version from 2 to 3, while getting rid of as many dependencies as possible in the meantime. I was also a very vocal advocate for improving upon the general DX of the whole codebase, from simple things like automated linting on-commit to ensuring that our test coverage was sufficient and scalable for future work.
+              Stepped into a PM role during a health emergency with our own PM. Conducted dozens of customer interviews, communicated with key stakeholders and kept them up-to-date while shielding the team from growing pressure, organized several sprints, sprint reviews & refinements and handled other various PM tasks.
+            </li>
+
+            <li>
+              Championed a cross-team effort to upgrade our legacy Vue application from version 2.6 to the latest 3 version, while getting rid of as many dependencies as possible in the meantime. I was also a very vocal advocate for improving upon the general DX of the whole codebase, from simple things like automated linting on-commit to ensuring that our test coverage was sufficient and scalable for future work.
             </li>
           </ul>
         </div>
@@ -79,15 +83,15 @@
         <div class="company-details">
           <ul>
             <li>
-              My team and I were responsible for the construction of a brand new, large featureset involving lots of data gathering and analytical capabilities, that would eventually be ported over for all universities on the platform. It involved the creation of many new complex components and in some situations refactors of existing components on the frontend, while the backend also required new functionality with a lot of room for error due to a slew of complex SQL queries.
+              Led the creation of a complex featureset for long-term data gathering and visualization, ultimately used by all universities on the platform. This involved building new components, refactoring existing ones on the frontend, and adding new backend functionality involving large, expansive SQL queries, making sure they were optimized for the large datasets involved.
             </li>
 
             <li>
-              Responsible for the integration and testing of all new features into various LMS platforms like Canvas, BlackBoard, Microsoft Teams and others. This involved writing extensive Unit, acceptance and integration tests on both the frontend and backend as well as manual testing of the various APIs involved in the LMS'.
+              Integrated and testing of features for LMS platforms like Canvas, BlackBoard, Microsoft Teams. Wrote extensive unit, acceptance, snapshot and integration tests, primarily with Playwright, Cypress & RSpec.
             </li>
 
             <li>
-              I was deeply involved in the code review process for many pull requests made for both the backend and the frontend of the platform. I ensured that all code being delivered was adhering to a high standard, especially making sure that accessibility concerns were accounted for due to the nature of the userbase (universities and their students).
+              Played a central role in code reviews for both backend and frontend pull requests. Ensured high standards and addressed accessibility concerns, given the userbase consisted of universities and their students.
             </li>
           </ul>
         </div>
@@ -102,10 +106,6 @@
 
       <div class="company-details">
         <ul>
-          <li>
-            Part of a large effort where we modernized and cleaned up some of the messier parts of the Vue codebase that relied on brittle 3rd parties, ensuring the young project would remain scalable and easy to work on.
-          </li>
-
           <li>
             Facilitated a large refactor of the Rails backend to cater to delivery services, a crucial feature during the peak of the COVID pandemic where many people couldn't go out to eat, which was a large factor in ensuring the continued and successful growth of the product.
           </li>
