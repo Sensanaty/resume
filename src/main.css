@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  html, body, #app {
+    background: white !important;
+    width: 100%;
+    height: 100%;
+  }
+}

@@ -1,219 +1,147 @@
 <main>
-  <div class="wrapper">
-    <div class="header">
-      <h1 class="name">Luka Salević<span class="link">lu-ka.me</span></h1>
-      <h2 class="description">Fullstack Web & Software Engineer</h2>
+  <div>
+    <h1 class="name text-2xl font-bold">Luka Salević <a href="https://lu-ka.me" class="text-neutral-400 ml-1">lu-ka.me</a></h1>
+    <h2 class="text-2xl font-bold">Senior Fullstack Engineer</h2>
+  </div>
+
+  <div class="contact-details flex items-center justify-evenly bg-black text-white -mx-2 mt-1.5 py-0.5">
+    <a href="mailto:salevic@lu-ka.me"><code>salevic@lu-ka.me</code></a>
+    <div class="bg-neutral-400 w-0.5 h-4" />
+    <a href="https://github.com/Sensanaty"><code>github.com/Sensanaty</code></a>
+    <div class="bg-neutral-400 w-0.5 h-4" />
+    <code>+31 612 632 764</code>
+  </div>
+
+  <div>
+    <h1 class="text-2xl font-bold">Professional Summary</h1>
+
+    <p>
+      Senior Fullstack Engineer with expertise in Ruby on Rails, modern JavaScript frameworks and scalable web applications. Strong advocate for strong testing practices, with a proven track record of implementing robust test suites and quality-focused dev workflows. Experienced in leading technical initiatives, mentoring junior team members, and driving improvements in code quality and developer experience across organizations.
+    </p>
+  </div>
+
+  <div class="mt-2">
+    <h1 class="text-2xl font-semibold">Technical Skills</h1>
+
+    <div class="grid grid-cols-2 mt-1">
+      <ul class="list-disc ml-4 mr-2">
+        <li><span class="font-semibold">Backend Development</span>: Ruby on Rails, Node.js (Nest.js), Python, GraphQL, REST APIs</li>
+        <li><span class="font-semibold">Frontend Development</span>: Vue 2/3, React, Svelte, Ember, TypeScript, JavaScript, accessability focus</li>
+        <li><span class="font-semibold">Testing & Quality</span>: RSpec, Vitest, Jest, Cypress, Playwright, TDD practices</li>
+        <li><span class="font-semibold">Design Systems</span>: Custom component libraries, Storybook, UI/UX patterns, design tokens</li>
+        <li><span class="font-semibold">Databases & Search</span>: PostgreSQL, MySQL, Redis, ElasticSearch, MongoDB</li>
+      </ul>
+
+      <ul class="list-disc ml-4">
+        <li><span class="font-semibold">Infrastructure</span>: Docker, AWS, GCP, Cloudflare, CI/CD pipelines, Git, Supabase</li>
+        <li><span class="font-semibold">Development Tools</span>: OpenAPI/Swagger, ESLint, Prettier, debugging tools, profiling</li>
+        <li><span class="font-semibold">Frontend Styling</span>: HTML5, CSS3, Tailwind, SCSS/SASS, Responsive design</li>
+        <li><span class="font-semibold">Build Tools</span>: Webpack, Vite, pnpm workspaces, Turborepo</li>
+        <li><span class="font-semibold">Project Management</span>: Linear, Jira, Figma, requirements gathering, estimation</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="mt-2">
+    <h1 class="text-2xl font-semibold">Professional Experience</h1>
+
+    <div>
+      <h2 class="text-lg font-semibold">Senior Fullstack Engineer @ Trengo | Dec 2022 - Present | Utrecht, Netherlands</h2>
+
+      <p>Led frontend development for critical customer-facing products while actively contributing to backend services, focusing on bridging frontend and backend development practices.</p>
+
+      <h3 class="font-semibold">Team Automation</h3>
+
+      <ul class="list-disc ml-4">
+        <li>Led frontend development and architecture for HelpMate, Trengo's AI platform combining automated customer support with smart agent assistance tools, reaching over 35% paid user adoption while actively contributing to its Node.js backend as a fullstack engineer</li>
+        <li>Architected and built the Vue 3 component system powering document management and AI configuration interfaces, establishing patterns that the team adopted for building intuitive user experiences</li>
+        <li>Implemented real-time conversation features in the inbox enabling AI-powered suggestions and ticket summaries, while also contributing to the backend services powering these features</li>
+        <li>Drove API design decisions and integration patterns between frontend and backend systems, helping establish consistent approaches for real-time updates and data flow across the platform</li>
+      </ul>
+
+      <h3 class="font-semibold mt-1.5">Technical Leadership & Impact</h3>
+
+      <ul class="list-disc ml-4">
+        <li>Initiated and led company-wide migration from Vue 2 to Vue 3, forming a cross-team taskforce that successfully upgraded a business-critical codebase used by hundreds of thousands of customers daily</li>
+        <li>Modernized the core inbox experience through systematic refactoring of legacy code, notably transforming a 5000-line sidebar component into a maintainable, testable state</li>
+        <li>Established better frontend testing standards across teams by implementing comprehensive test suites for critical user paths, leading to significantly fewer production issues in the long term</li>
+        <li>Championed developer experience improvements through automated tooling, strict TypeScript adoption, and standardized code review processes, resulting in faster development cycles and improved code quality</li>
+      </ul>
+
+      <br>
+      <br>
+
+      <h3 class="font-semibold mt-2.5">
+        Additional Responsibilities
+      </h3>
+
+      <ul class="list-disc ml-4">
+        <li>Maintained and extended Trengo's design system in close collaboration with the Head of Design, contributing new components and documentation to the Storybook implementation</li>
+        <li>Helped establish and enforce component patterns and usage guidelines that improved consistency across the platform</li>
+        <li>Stepped into interim PM role during team emergency, managing stakeholder communications while maintaining development velocity</li>
+        <li>Contributed to hiring processes by conducting technical interviews and improving the interview assessment framework</li>
+        <li>Led monthly frontend guild meetings, facilitating knowledge sharing and standardization of practices across teams</li>
+      </ul>
     </div>
 
-    <div class="details">
-      <a href="mailto:salevic@lu-ka.me"><code>salevic@lu-ka.me</code></a>
-      <span class="spacer"></span>
-      <a href="https://github.com/Sensanaty"><code>github.com/Sensanaty</code></a>
-      <span class="spacer"></span>
-      <code>+31 612 632 764</code>
+    <div class="mt-2">
+      <h2 class="text-lg font-semibold">Fullstack Engineer @ FeedbackFruits | Dec 2021 - Dec 2022 | Amsterdam, Netherlands</h2>
+
+      <p>Built and maintained educational tools integrated with major Learning Management Systems, focusing on data visualization and accessibility.</p>
+
+      <ul class="list-disc ml-4">
+        <li>Developed accessible data visualization features for educational analytics using D3.js and Ember, ensuring all charts and graphs were fully navigable by keyboard and screen readers</li>
+        <li>Created efficient PostgreSQL queries and caching strategies for handling large-scale educational data</li>
+        <li>Led upgrade of 100+ Ember components to Glimmer API during company-wide hackathon</li>
+        <li>Implemented ARIA AAA-compliant features following strict accessibility guidelines required by partner universities</li>
+        <li>Built secure integration endpoints for Canvas and Blackboard using Ruby on Rails</li>
+        <li>Designed and optimized database schemas for handling multi-year course data across different academic calendars</li>
+        <li>Collaborated with university accessibility teams to ensure the platform met the needs of all students</li>
+      </ul>
     </div>
 
-    <div class="skills">
-      <h2>Skills</h2>
+    <div class="mt-2">
+      <h2 class="text-lg font-semibold">Fullstack Engineer @ Tablevibe | Aug 2020 - Dec 2021 | Singapore (Remote)</h2>
 
-      <div class="wrapper">
-        <ul class="left">
-          <li>TypeScript, HTML, CSS, Tailwind</li>
-          <li>Vue and Nuxt 2 & 3, Svelte, React, Lit, Ember</li>
-          <li>Docker & Docker Compose, Kubernetes</li>
-          <li>Cloudflare, Google Cloud, AWS, Vercel, Azure</li>
-          <li>PostgreSQL, Redis, MySQL, GraphQL, Mongo</li>
-          <li>LangSmith, self-hosted LLMs (Llama 3)</li>
-        </ul>
+      <p>First engineering hire at restaurant analytics startup, handling end-to-end development of customer feedback platform.</p>
 
-        <ul class="right">
-          <li>Ruby & Rails, Golang, Python, Learning Rust</li>
-          <li>Linux (UNIX), Git, Mercurial, SVN</li>
-          <li>Vitest, testing-library, Jest, Cypress, Playwright</li>
-          <li>Pinia, VueX, Jotai, Zustand, TanStack Query</li>
-          <li>Figma, Miro, Framer, Lottie</li>
-          <li>SEO, Web Design & UX, Accessibility & i18n</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="experience">
-      <h2>Experience</h2>
-
-      <div class="company">
-        <div class="position">
-          <h2>Trengo</h2>
-          <h3>Senior Frontend Engineer <span>Dec 2022 - Present</span></h3>
-        </div>
-        <div class="company-details">
-          <ul>
-            <li>
-              As part of the automation team, led the frontend development of a greenfield AI automation feature. The AI directly interacted with deeper, critical systems of the project, being allowed to act autonomously, which meant a lot of care was taken to ensure high quality workflows.
-            </li>
-
-            <li>
-              I also often helped the backend engineers on the automation team with the Node (Nest.js) codebase of the greenfield AI project, as the bulk of the work there involved backend work. In collaboration with our Infra team, we put out a fully-functional MVP of the project in less than a month.
-            </li>
-
-            <li>
-              As part of the Inbox team, we were responsible for the most critical part of the entire application, the Inbox. My team and I modernized huge swathes of the legacy, untested  Inbox codebase, ensuring greater testability, extensibility and getting rid of many long-standing bugs in the platform which were slowly increasing our churn rate.
-            </li>
-
-            <li>
-              During my time in Inbox, we also built a massive new feature that involved over 20 different 3rd party CRM and Ecommerce platform integrations via their APIs to great success, seeing adoption with almost every Trengo customer.
-            </li>
-
-            <li>
-              Stepped into a PM role during a health emergency with our own PM. Conducted dozens of customer interviews, communicated with key stakeholders and kept them up-to-date while shielding the team from growing pressure, organized several sprints, sprint reviews & refinements and handled other various PM tasks.
-            </li>
-
-            <li>
-              Championed a cross-team effort to upgrade our legacy Vue application from version 2.6 to the latest 3 version, while getting rid of as many dependencies as possible in the meantime. I was also a very vocal advocate for improving upon the general DX of the whole codebase, from simple things like automated linting on-commit to ensuring that our test coverage was sufficient and scalable for future work.
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="company">
-        <div class="position">
-          <h2>FeedbackFruits</h2>
-          <h3>Fullstack Engineer <span>Dec 2021 - Dec 2022</span></h3>
-        </div>
-
-        <div class="company-details">
-          <ul>
-            <li>
-              Led the creation of a complex featureset for long-term data gathering and visualization, ultimately used by all universities on the platform. This involved building new components, refactoring existing ones on the frontend, and adding new backend functionality involving large, expansive SQL queries, making sure they were optimized for the large datasets involved.
-            </li>
-
-            <li>
-              Integrated and testing of features for LMS platforms like Canvas, BlackBoard, Microsoft Teams. Wrote extensive unit, acceptance, snapshot and integration tests, primarily with Playwright, Cypress & RSpec.
-            </li>
-
-            <li>
-              Played a central role in code reviews for both backend and frontend pull requests. Ensured high standards and addressed accessibility concerns, given the userbase consisted of universities and their students.
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="company">
-        <div class="position">
-          <h2>Tablevibe</h2>
-          <h3>Fullstack Engineer <span>Aug 2020 - Dec 2021</span></h3>
-        </div>
-      </div>
-
-      <div class="company-details">
-        <ul>
-          <li>
-            Facilitated a large refactor of the Rails backend to cater to delivery services, a crucial feature during the peak of the COVID pandemic where many people couldn't go out to eat, which was a large factor in ensuring the continued and successful growth of the product.
-          </li>
-        </ul>
-      </div>
+      <ul class="list-disc ml-4">
+        <li>Built customer feedback collection system with Ruby on Rails and Vue.js</li>
+        <li>Led critical pivot to delivery services during COVID-19, integrating with major delivery platforms</li>
+        <li>Implemented real-time analytics dashboard using PostgreSQL and Redis</li>
+        <li>Managed cloud infrastructure on GCP, contributing improvements to official documentation</li>
+        <li>Developed efficient caching strategies for handling peak restaurant traffic periods</li>
+        <li>Designed multi-tenant architecture to support data isolation between different restaurant chains</li>
+      </ul>
     </div>
   </div>
 </main>
 
-<style>
+<style lang="postcss">
   :global(html, body, #app) {
-    background: #1E1E1E;
+    @apply bg-neutral-900;
     width: 100%;
     height: 100%;
   }
+
   :global(#app) {
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   main {
-    height: 297mm;
-    width: 210mm;
+    @apply px-2 py-2.5 h-full;
+    /*width: 210mm;*/
     background: white;
-    padding: 9px 10px;
-    font-family: Aeonik;
-  }
-  h1, h2, h3, h4, h5, ul, li, p, code, pre { margin: 0; padding: 0}
-
-  .name {
-    font-size: 2.0rem;
-  }
-  .link {
-    color: dimgray;
-    font-family: "Hack Nerd Font Mono";
-    font-size: 1.5rem;
-    margin-left: 15px
-  }
-  .link::before {
-    content: "// ";
-    font-family: "Helvetica Now Display"
+    font-family: "Aeonik";
   }
 
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
+  .name > a::before { content: "// " / ""; user-select: none; }
 
-  .details {
-    font-size: 1.05rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: calc(100% + 20px);
-    background: black;
-    color: white;
-    padding: 10px;
-    margin: 6px -10px 2px -10px ;
-  }
-  code {
-    font-family: "Hack Nerd Font Mono";
-    font-weight: bold;
-  }
-  .spacer {
-    height: 25px;
-    width: 6px;
-    background: white;
-    margin: -20px;
-  }
-
-  .skills {
-    width: 100%;
-    padding: 4px;
-  }
-  .skills > .wrapper {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  h2 {
-    margin-bottom: 5px;
-  }
-  .skills > .wrapper > ul {
-    margin-left: 10px;
-    width: calc(50% - 10px);
-    justify-self: flex-start;
-  }
-  .skills > .wrapper > ul > li {
-    font-size: 1.08rem;
-    margin: 1px 0;
-  }
-
-  .experience > h2 { margin: 4px 0 7px 0; font-size: 1.5rem }
-  h3 { font-size: 1.4rem; font-weight: normal }
-  .position {
-    display: inline-flex;
-    align-items: center;
-    flex-flow: row wrap;
-  }
-
-  .position > h2 { font-size: 1.5rem }
-  .position > h2::after { content: " -"; margin-right: 8px }
-  .position > h3 { font-size: 1.5rem }
-  h3 > span { color: dimgray; font-weight: bold; font-family: "Hack Nerd Font Mono"; font-size: 1rem; margin-left: 4px; }
-  h3 > span::before { content: "//"; font-family: "Helvetica Now Display"; margin-right: 6px; }
-  .company-details > p { margin: 8px 0 }
-  .company-details > ul { margin-left: 10px }
-  .company-details > ul > li { margin: 6px 0 }
-  .company-details > ul > li:nth-child(1) { margin: 2px 0 6px 0 }
+  .contact-details { font-family: "Berkeley Mono" }
 </style>
+
+<script>
+  import "./main.css";
+</script>
