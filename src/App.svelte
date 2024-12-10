@@ -126,7 +126,6 @@
 
   main {
     @apply px-2 py-2.5 h-full;
-    /*width: 210mm;*/
     background: white;
     font-family: "Aeonik";
   }
