@@ -40,7 +40,7 @@
     <div>
       <h2 class="text-lg font-semibold">Senior Fullstack Engineer @ Trengo | Dec 2022 - Present | Utrecht, Netherlands</h2>
 
-      <p>Led frontend development for critical customer-facing products while actively contributing to backend services, focusing on bridging frontend and backend development practices.</p>
+      <p>Led frontend development for critical customer-facing products in a team of 5-6 engineers while actively contributing to backend services, focusing on bridging frontend and backend development practices across multiple product teams.</p>
 
       <h3 class="font-semibold mt-3">Team Automation</h3>
 
@@ -66,12 +66,12 @@
       <br>
 
       <h3 class="font-semibold mt-4">
-        Additional Responsibilities
+        Engineering Leadership & Initiatives
       </h3>
 
       <ul class="list-disc ml-4">
         <li class="mt-0.5">Maintained and extended Trengo's design system in close collaboration with the Head of Design, contributing new components and documentation to the Storybook implementation</li>
-        <li class="mt-0.5">Helped establish and enforce component patterns and usage guidelines that improved consistency across the platform</li>
+        <li class="mt-0.5">Mentored junior and mid-level engineers through pair programming sessions and code reviews, while establishing best practices through component patterns and guidelines</li>
         <li class="mt-0.5">Stepped into interim PM role during team emergency, managing stakeholder communications while maintaining development velocity</li>
         <li class="mt-0.5">Contributed to hiring processes by conducting technical interviews and improving the interview assessment framework</li>
         <li class="mt-0.5">Led monthly frontend guild meetings, facilitating knowledge sharing and standardization of practices across teams</li>
