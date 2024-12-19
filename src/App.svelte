@@ -63,7 +63,6 @@
       <br>
       <br>
       <br>
-      <br>
 
       <h3 class="font-semibold mt-4">
         Engineering Leadership & Initiatives
